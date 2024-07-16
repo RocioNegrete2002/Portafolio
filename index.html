@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Fulana de Tal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#education">Formación</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Hola, mi nombre es Rocio Ortega</h1>
+        <p>Egresada en Ciencias de la Informática
+            en el IPN y egresada técnica en Redes
+            de Computo en la misma institución.
+            Dominio del idioma inglés, dominio
+            básico de francés, actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
+        <div class="social">
+            
+            <a href="cv.pdf" target="_blank">Currículo</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Egresada de Ciencias de la informatica con gran potencial para aportar un valor a cualquier empresa. </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div>HTML5</div>
+            <div>JavaScript</div>
+            <div>PHP</div>
+            <div>Node JS</div>
+            <div>React</div>
+            <div>Bases de datos</div>
+            <div>Seguridad informatica</div>
+            <div>Administracion de proyectos</div>
+          
+            
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <div class="hobbies-grid">
+            <div>Música</div>
+            <div>Cine</div>
+            <div>Arte</div>
+            <div>Ejercicio</div>
+            
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Formación académica</h2>
+        <div class="education-grid">
+            <div>
+                <h3>IPN-CET 1 "Walter Cross Buchanan"</h3>
+                <p>Técnico en redes de cómputo (2017-2020)</p>
+            </div>
+            <div>
+                <h3>IPN-UPIICSA</h3>
+                <p>Licenciatura en Ciencias de la Informática(2020-2024)</p>
+            </div>
+            <div>
+                <h3>Alura</h3>
+                <p>Programa Oracle Next Education 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experiencia profesional</h2>
+        <div class="projects-grid">
+            <div>
+                <img src="vehiculos.png" alt="Vehículos">
+                <h3>Desarrollo del sistema de gestión de vehiculos oficiales</h3>
+                <p>Sistema desarrollado para el IPN-UPIICSA con el objetivo de gestionar el uso de vehiculos oficaiales en la institucion asi como de informacion clave de vehiculos, choferes prestamo y estado de vehiculos, con la ayuda de API's y servicios externos.</p>
+                
+            </div>
+            <div>
+                <img src="cfe.png" alt="CFE">
+                <h3>Sistema de tickets para la CFE</h3>
+                <p>Sistema creado con el objetivo de gestionar el prestamo de equipos de cómputo dentro de la CFE.</p>
+                
+            </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="subject">Asunto:</label>
+            <input type="text" id="subject" name="subject" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Desarrollado por Rocio Ortega, 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
